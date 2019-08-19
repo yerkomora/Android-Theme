@@ -1,0 +1,42 @@
+<resources>
+
+	<!-- Theme MaterialComponents -->
+
+	<style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+		<item name="colorOnPrimary">@color/colorOnPrimary</item>
+		<item name="colorSecondary">@color/colorSecondary</item>
+		<item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+		<item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+		<item name="android:colorBackground">@color/colorBackground</item>
+		<item name="colorOnBackground">@color/colorOnBackground</item>
+		<item name="colorSurface">@color/colorSecondary</item>
+		<item name="colorOnSurface">@color/colorOnSecondary</item>
+		<item name="colorError">@color/colorPrimary</item>
+		<item name="colorOnError">@color/colorOnPrimary</item>
+
+		<!--
+		design_default_color_background
+		design_default_color_on_background
+		design_default_color_surface
+		design_default_color_on_surface
+		design_default_color_error
+		design_default_color_on_error
+		-->
+
+		<!-- <item name="materialButtonStyle">@style/Widget.MyApp.MyButton</item> -->
+	</style>
+
+	<!--
+	<style name="Widget.MyApp.MyButton" parent="Widget.MaterialComponents.Button">
+		<item name="android:textAppearance">?attr/textAppearanceButton</item>
+		<item name="android:textColor">?attr/colorOnPrimary</item>
+		<item name="iconTint">?attr/colorOnPrimary</item>
+		<item name="rippleColor">?attr/colorOnPrimary</item>
+		<item name="backgroundTint">?attr/colorPrimary</item>
+	</style>
+	-->
+
+</resources>

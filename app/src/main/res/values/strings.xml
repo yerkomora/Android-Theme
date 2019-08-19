@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">Themes</string>
+	<string name="textView_text">TextView</string>
+	<string name="editText_text">EditText Text</string>
+	<string name="editText_hint">EditText Hidden</string>
+	<string name="button_enable">Button Enable</string>
+	<string name="button_disable">Button Disable</string>
+</resources>

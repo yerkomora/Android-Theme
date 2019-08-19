@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Theme AppCompat -->
+
+	<style name="AppTheme0" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<!--
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		-->
+
+		<item name="android:textColorHint">@color/purple</item>
+		<item name="colorControlNormal">@color/orangeDark</item>
+		<item name="colorControlActivated">@color/blueLight</item>
+		<item name="colorControlHighlight">@color/purple</item>
+
+
+		<!-- AppBar -->
+
+		<item name="android:statusBarColor">@color/greenDark</item>
+
+		<item name="actionBarTheme">@style/ActionBar.Theme</item>
+		<item name="actionBarStyle">@style/ActionBar.Style</item>
+		<item name="actionBarSize">80sp</item>
+
+		<item name="toolbarStyle">@style/Toolbar</item>
+
+		<!-- Widget -->
+
+		<item name="android:textViewStyle">@style/TextView</item>
+		<item name="editTextStyle">@style/EditText</item>
+		<!--
+		<item name="buttonStyle"></item>
+
+		<item name="android:buttonBarStyle"></item>
+		<item name="android:buttonBarButtonStyle"></item>
+		-->
+
+	<item name="android:datePickerDialogTheme">@style/DatePickerDialogTheme</item>
+
+</style>
+
+<style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+	<item name="colorAccent">@color/blueDark</item>
+</style>
+
+<style name="buttonBarStyle" parent="Widget.AppCompat.ButtonBar">
+	<item name="android:background">@color/redDark</item>
+	<item name="android:textAppearance">@style/textAppearance</item>
+</style>
+
+<style name="buttonBarButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+	<item name="android:textAppearance">@style/textAppearance</item>
+</style>
+
+<style name="textAppearance" parent="">
+	<item name="android:textColor">@color/greenDark</item>
+</style>
+
+
+<!-- ToolBar -->
+
+	<style name="Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+		<item name="titleTextAppearance">@style/Toolbar.TitleTextAppearance</item>
+		<item name="subtitleTextAppearance">@style/Toolbar.SutitleTextAppearance</item>
+	</style>
+
+	<style name="Toolbar.TitleTextAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:textSize">400sp</item>
+		<item name="android:textColor">@color/blueDark</item>
+	</style>
+
+	<style name="Toolbar.SutitleTextAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+		<item name="android:textSize">400sp</item>
+		<item name="android:textColor">@color/blueDark</item>
+	</style>
+
+	<!-- AppBar -->
+
+	<style name="ActionBar.Theme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="titleTextColor">@color/redDark</item>
+	</style>
+
+	<style name="ActionBar.Style" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+		<item name="background">@color/blueDark</item>
+	</style>
+
+
+	<!-- TextView -->
+
+	<style name="TextView" parent="android:Widget.TextView">
+		<item name="android:fontFamily">@font/nunito_regular</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@android:color/holo_green_dark</item>
+	</style>
+
+	<!-- EditText -->
+
+	<style name="EditText" parent="Widget.AppCompat.EditText">
+		<item name="android:fontFamily">@font/nunito_bold</item>
+		<item name="android:textColor">@color/greenDark</item>
+		<item name="android:textColorHint">@color/redDark</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+
+	<!-- Button -->
+
+	<style name="Button0" parent="Widget.AppCompat.Button">
+		<item name="android:background">@drawable/btn_default_bg</item>
+		<item name="android:fontFamily">@font/nunito_extrabold</item>
+		<item name="android:textColor">@drawable/btn_default_txt</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:paddingStart">80dp</item>
+		<item name="android:paddingEnd">80dp</item>
+		<item name="android:paddingTop">40dp</item>
+		<item name="android:paddingBottom">40dp</item>
+	</style>
+</resources>

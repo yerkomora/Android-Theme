@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- ColorTool -->
+
+	<color name="primaryColor">#3949ab</color>
+	<color name="primaryLightColor">#6f74dd</color>
+	<color name="primaryDarkColor">#00227b</color>
+
+	<color name="secondaryColor">#8e24aa</color>
+	<color name="secondaryLightColor">#c158dc</color>
+	<color name="secondaryDarkColor">#5c007a</color>
+
+	<color name="primaryTextColor">#ffffff</color>
+	<color name="secondaryTextColor">#ffffff</color>
+
+	<!-- MaterialComponents -->
+
+	<color name="colorPrimary">@color/primaryColor</color>
+	<color name="colorPrimaryVariant">#@color/primaryLightColor</color>
+	<color name="colorOnPrimary">@color/primaryDarkColor</color>
+
+	<color name="colorSecondary">@color/secondaryColor</color>
+	<color name="colorSecondaryVariant">@color/secondaryLightColor</color>
+	<color name="colorOnSecondary">@color/secondaryDarkColor</color>
+
+	<color name="colorBackground">#ffffff</color>
+	<color name="colorOnBackground">#ffffff</color>
+
+	<!-- Colors Basic -->
+
+	<color name="white">@android:color/white</color>
+
+	<color name="gray">@android:color/darker_gray</color>
+
+	<color name="orangeLight">@android:color/holo_orange_light</color>
+	<color name="orangeDark">@android:color/holo_orange_dark</color>
+
+	<color name="blueLight">@android:color/holo_blue_light</color>
+	<color name="blueDark">@android:color/holo_blue_dark</color>
+
+	<color name="purple">@android:color/holo_purple</color>
+
+	<color name="greenLight">@android:color/holo_green_light</color>
+	<color name="greenDark">@android:color/holo_green_dark</color>
+
+	<color name="redLight">@android:color/holo_red_light</color>
+	<color name="redDark">@android:color/holo_red_dark</color>
+
+</resources>
