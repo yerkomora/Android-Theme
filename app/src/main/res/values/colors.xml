@@ -17,7 +17,7 @@
 	<!-- MaterialComponents -->
 
 	<color name="colorPrimary">@color/primaryColor</color>
-	<color name="colorPrimaryVariant">#@color/primaryLightColor</color>
+	<color name="colorPrimaryVariant">@color/primaryLightColor</color>
 	<color name="colorOnPrimary">@color/primaryDarkColor</color>
 
 	<color name="colorSecondary">@color/secondaryColor</color>
