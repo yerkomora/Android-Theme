@@ -2,32 +2,54 @@
 
 	<!-- Theme MaterialComponents -->
 
-	<style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+	<style name="App.Theme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+		<!-- Colors -->
+
 		<item name="colorPrimary">@color/colorPrimary</item>
 		<item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
 		<item name="colorOnPrimary">@color/colorOnPrimary</item>
+
 		<item name="colorSecondary">@color/colorSecondary</item>
 		<item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
 		<item name="colorOnSecondary">@color/colorOnSecondary</item>
 
 		<item name="android:colorBackground">@color/colorBackground</item>
 		<item name="colorOnBackground">@color/colorOnBackground</item>
-		<item name="colorSurface">@color/colorSecondary</item>
-		<item name="colorOnSurface">@color/colorOnSecondary</item>
-		<item name="colorError">@color/colorPrimary</item>
-		<item name="colorOnError">@color/colorOnPrimary</item>
 
+		<item name="colorSurface">@color/colorSurface</item>
+		<item name="colorOnSurface">@color/colorOnSurface</item>
+
+		<item name="colorError">@color/colorError</item>
+		<item name="colorOnError">@color/colorOnError</item>
+
+		<!-- Status Bar -->
+
+		<item name="android:windowTranslucentStatus">false</item>
+		<item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+
+		<!-- Navigation Bar -->
+
+		<item name="android:windowTranslucentNavigation">false</item>
+		<item name="android:navigationBarColor">@color/primaryColor</item>
+
+		<!-- Widget -->
+
+		<item name="textInputStyle">@style/App.Widget.TextInputLayout</item>
 		<!--
-		design_default_color_background
-		design_default_color_on_background
-		design_default_color_surface
-		design_default_color_on_surface
-		design_default_color_error
-		design_default_color_on_error
+		<item name="materialButtonStyle">@style/Widget.MyApp.MyButton</item>
 		-->
 
-		<!-- <item name="materialButtonStyle">@style/Widget.MyApp.MyButton</item> -->
 	</style>
+
+	<style name="App.Theme.FullScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+		<item name="android:windowTranslucentStatus">true</item>
+		<item name="android:windowTranslucentNavigation">true</item>
+	</style>
+
+	<!-- Widget -->
+
+	<style name="App.Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
 
 	<!--
 	<style name="Widget.MyApp.MyButton" parent="Widget.MaterialComponents.Button">

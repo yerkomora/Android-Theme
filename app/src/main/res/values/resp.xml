@@ -62,7 +62,7 @@
 
 	<style name="Toolbar" parent="@style/Widget.AppCompat.Toolbar">
 		<item name="titleTextAppearance">@style/Toolbar.TitleTextAppearance</item>
-		<item name="subtitleTextAppearance">@style/Toolbar.SutitleTextAppearance</item>
+		<item name="subtitleTextAppearance">@style/Toolbar.SubtitleTextAppearance</item>
 	</style>
 
 	<style name="Toolbar.TitleTextAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
@@ -70,7 +70,7 @@
 		<item name="android:textColor">@color/blueDark</item>
 	</style>
 
-	<style name="Toolbar.SutitleTextAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+	<style name="Toolbar.SubtitleTextAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
 		<item name="android:textSize">400sp</item>
 		<item name="android:textColor">@color/blueDark</item>
 	</style>

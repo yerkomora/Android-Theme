@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- User -->
+
+	<string name="user_names">Names</string>
+	<string name="user_surnameFirst">First Surname</string>
+	<string name="user_surnameSecond">Second Surname</string>
+
+	<string name="user_gender">Gender</string>
+	<string name="user_genderMale">Male</string>
+	<string name="user_genderFemale">Female</string>
+
+	<string name="user_phoneMobile">Phone Mobile</string>
+	<string name="user_email">E-Mail</string>
+
+	<string name="user_password">Password</string>
+
+	<!-- Login -->
+
+	<string name="login_title">Login</string>
+	<string name="login_action">Send</string>
+	<string name="login_description">Enter your e-mail and your password.</string>
+	<string name="login_register">Register</string>
+	<string name="login_passwordRecover">Recover Password</string>
+	<string name="login_skip">Skip</string>
+
+	<!-- Register -->
+
+	<string name="register_title">Register</string>
+	<string name="register_action">Send</string>
+
+	<!-- Password Recover -->
+
+	<string name="passwordRecover_title">Recover Password</string>
+	<string name="passwordRecover_description">Enter your e-mail to send password recovery instructions.</string>
+	<string name="passwordRecover_action">Send</string>
+
+	<!-- Profile -->
+
+	<string name="profile_title">Profile</string>
+	<string name="profile_action">Send</string>
+
+</resources>

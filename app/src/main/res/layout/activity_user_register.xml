@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".users.RegisterActivity">
+
+	<androidx.core.widget.NestedScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		<androidx.appcompat.widget.LinearLayoutCompat
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingStart="20dp"
+				android:paddingTop="20dp"
+				android:paddingEnd="20dp"
+				android:paddingBottom="20dp">
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/register_namesLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_names">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/register_names"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="text" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/register_surnameFirstLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_surnameFirst">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/register_surnameFirst"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="text" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/register_surnameSecondLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_surnameSecond">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/register_surnameSecond"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="text" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.textview.MaterialTextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:text="@string/user_gender" />
+
+			<RadioGroup
+					android:id="@+id/register_gender"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+				<com.google.android.material.radiobutton.MaterialRadioButton
+						android:id="@+id/register_genderMale"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/user_genderMale" />
+
+				<com.google.android.material.radiobutton.MaterialRadioButton
+						android:id="@+id/register_genderFemale"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/user_genderFemale" />
+			</RadioGroup>
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/register_phoneMobileLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_phoneMobile"
+					app:prefixText="+56 9 ">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/register_phoneMobile"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:digits="0123456789"
+						android:inputType="phone"
+						android:maxLength="8" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/register_emailLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_email">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/register_email"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="textEmailAddress" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/register_passwordLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_password"
+					app:passwordToggleEnabled="true">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/register_password"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="textPassword" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/register_action"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="@string/register_action" />
+
+		</androidx.appcompat.widget.LinearLayoutCompat>
+
+	</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

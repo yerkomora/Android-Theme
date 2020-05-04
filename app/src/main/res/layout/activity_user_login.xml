@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".users.LoginActivity">
+
+	<androidx.core.widget.NestedScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		<androidx.appcompat.widget.LinearLayoutCompat
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingStart="20dp"
+				android:paddingTop="20dp"
+				android:paddingEnd="20dp"
+				android:paddingBottom="20dp">
+
+			<com.google.android.material.textview.MaterialTextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="10dp"
+					android:text="@string/login_description" />
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/login_emailLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_email">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/login_email"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="textEmailAddress" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/login_passwordLayout"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:hint="@string/user_password"
+					app:passwordToggleEnabled="true">
+
+				<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/login_password"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:inputType="textPassword" />
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/login_action"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="@string/login_action" />
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/login_register"
+					style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="40dp"
+					android:text="@string/login_register" />
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/login_passwordRecover"
+					style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="10dp"
+					android:text="@string/login_passwordRecover" />
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/login_skip"
+					style="@style/Widget.MaterialComponents.Button.TextButton"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="40dp"
+					android:text="@string/login_skip" />
+
+		</androidx.appcompat.widget.LinearLayoutCompat>
+
+	</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
